@@ -1,0 +1,57 @@
+/* "*" isso estiliza a pg inteira */
+*{
+    margin: 0; /* remove as margens da pg */
+    padding: 0; /* remove o espaçamento da pg */
+    -webkit-text-size-adjust: 100%;
+}
+.fundo{
+    background: #EEAECA; /* cor de fundo */
+    background-image: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); /* gradiente de cor */
+    height: 100vh; /* altura */
+    color: rgb(0, 0, 0); 
+    font-family: 'Times New Roman', Times, serif; /* fonte de texto */
+    text-align: center; /* aliamento de texto */
+}
+.corpoCalc{
+    margin-top: 2%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8); /* a: transparência de 0 a 1 */
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); /* ajusta a posição para que fique perfeitamente posicionada no centro da tela */
+    border-radius: 15px; /* arredondamento da borda */
+    padding: 15px; /* espaçamento */
+}
+.botao{
+    width: 50px; /* largura do botão */
+    height: 50px; /* altura do botão */
+    font-size: 25px; /* tamanho da fonte */
+    cursor: pointer; /* muda o cursor para a mãozinha */
+    margin: 3px; /* margem do botão */
+    background-color: #F9FF85; /* cor de fundo */
+    border: none; /* borda do botão */
+    color: black; /* cor da letra */
+}
+.botao:hover{
+    background-color: black;
+}
+#resultado{
+    background-color: #bbe1ea;
+    width: 215px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+h1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100;
+  background-color: white;
+  padding: 10px;
+  z-index: 1000;
+}
